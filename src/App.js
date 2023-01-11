@@ -10,6 +10,7 @@ function decrementCount(){
 
 function incrementCount(){
   setCount(prevCount => prevCount + 1);
+  setTheme('red');
 }
   return (
    <>
